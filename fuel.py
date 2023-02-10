@@ -1,4 +1,5 @@
 import requests
+import csv
 from bs4 import BeautifulSoup
 
 ###################################
@@ -33,19 +34,15 @@ page = requests.get(URL)
 
 #print(page.text)
 soup = BeautifulSoup(page.content, "html.parser")
-#print(soup)
-#f = open("file.html", "w")
-#f.write(str(soup))
 results=soup.find(id="myID")
-#print(results.prettify())
-# for State in results.find_all(id="A"):
-#      print(State.text)
 
 #create lists for each parameters
 state = []
 price = []
 change = []
 x = 1
+
+#####################################
 
 #extracting all elements under td tag
 for Data in results.find_all("td"):
@@ -63,3 +60,13 @@ for (i,j,k) in zip(state,price,change):
     l=[i,j,k]
     out.append(l)
 tablemaker(out)
+
+#########################################
+
+f=open("Data.csv","w")
+
+cswrite=csv.writer(f)
+cswrite.writerows(out)
+f.close()
+
+#########################################
