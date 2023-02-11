@@ -1,33 +1,10 @@
 import requests
 import csv
 from bs4 import BeautifulSoup
+from secret import secrets
+from tablemaker import tablemaker
 
 ###################################
-
-def tablemaker(data):     #OPTIMIZED VARIANT
-    l=len(data[0])
-    lf=[]
-    for p in range(l):
-        li=[]
-        mx=0
-        for i in data:
-            aa=len(str(i[p]))
-            li.append(aa)
-            mx=max(li)
-        else:
-            lf.append(mx)
-    print("+","-"*((len(lf)*4)+sum(lf)-2),"+",sep="")
-    for p in data:
-        for i in range(l):
-            print("|"," ",p[i]," "," "*(lf[i]-len(str(p[i]))),"|",end="",sep="")
-        if data[0]==p:
-            print()
-            print("+","-"*((len(lf)*4)+sum(lf)-2),"+",sep="",end="")            
-        print()
-    print("+","-"*((len(lf)*4)+sum(lf)-2),"+",sep="")# table making end
-
-#####################################
-
 
 URL1 = "https://www.ndtv.com/fuel-prices/petrol-price-in-all-state"
 page1 = requests.get(URL1)
@@ -80,10 +57,7 @@ for (i,j,k,l,m) in zip(state,price_p,change_p,price_d,change_d):
     list1=[i,j,k,l,m]
     out.append(list1)
 # print(out)
-#########################################
-
 tablemaker(out)
-
 #########################################
 
 f=open("Data.csv","w",encoding="utf-8")
