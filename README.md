@@ -7,6 +7,7 @@ Cross-platform application to view latest fuel prices
 ## Screenshots
 
 ![App Screenshot](/assests/fuelish-cli.png)
+
 Fuelish-cli output screenshot
 
 
