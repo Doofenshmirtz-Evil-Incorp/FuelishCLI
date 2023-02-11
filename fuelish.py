@@ -1,7 +1,6 @@
 import requests
 import csv
 from bs4 import BeautifulSoup
-from secret import secrets
 from tablemaker import tablemaker
 
 ###################################
