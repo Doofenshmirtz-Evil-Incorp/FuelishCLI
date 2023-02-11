@@ -1,6 +1,8 @@
 import csv
 from tablemaker import tablemaker
-
+import fuelish
+######################################
+fuelish
 ######################################
 
 dic={"State":[],"Price(P)":[],"Change(P)":[],"Price(D)":[],"Change(D)":[]}
