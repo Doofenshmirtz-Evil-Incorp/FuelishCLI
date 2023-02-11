@@ -1,3 +1,5 @@
+##################################
+
 import requests
 import csv
 from bs4 import BeautifulSoup
@@ -29,6 +31,7 @@ x = 1
 #####################################
 
 #extracting all elements under td tag
+
 for Data_P in results1.find_all("td"):
     match (x%3):
         case 1:
@@ -39,6 +42,7 @@ for Data_P in results1.find_all("td"):
             change_p.append(Data_P.text)
     x+=1
 #####################################
+
 x=1
 for Data_D in results2.find_all("td"):
     match (x%3):
@@ -55,9 +59,9 @@ out.append(["State","Price(P)","Change(P)","Price(D)","Change(D)"])
 for (i,j,k,l,m) in zip(state,price_p,change_p,price_d,change_d):
     list1=[i,j,k,l,m]
     out.append(list1)
-# print(out)
 tablemaker(out)
-#########################################
+
+######################################
 
 f=open("Data.csv","w",encoding="utf-8")
 

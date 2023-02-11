@@ -1,14 +1,18 @@
 
-# Fuelish
+# FuelishCLI
 
-Cross-platform application to view latest fuel prices
+CLI program to view state-wise Fuel Prices in India
 
 
 ## Screenshots
 
-![App Screenshot](/assests/fuelish-cli.png)
+![App Screenshot](/assets/screenshots/output.png)
 
-Fuelish-cli output screenshot
+FuelishCLI output
+
+![App Screenshot](/assets/screenshots/tablemaker.png)
+
+Fuelish stored data output
 
 
 ## Authors
