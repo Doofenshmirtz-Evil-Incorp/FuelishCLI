@@ -59,7 +59,7 @@ out.append(["State","Price(P)","Change(P)","Price(D)","Change(D)"])
 for (i,j,k,l,m) in zip(state,price_p,change_p,price_d,change_d):
     list1=[i,j,k,l,m]
     out.append(list1)
-tablemaker(out)
+#tablemaker(out)
 
 ######################################
 

@@ -6,7 +6,7 @@ fuelish
 ######################################
 
 dic={"State":[],"Price(P)":[],"Change(P)":[],"Price(D)":[],"Change(D)":[]}
-with open("Data.csv", "r") as csv_file:
+with open("Data.csv", "r",encoding="utf-8") as csv_file:
     csv_reader = csv.DictReader(csv_file)
     for row in csv_reader:
         dic["State"].append(row["State"].lower())
@@ -17,20 +17,22 @@ with open("Data.csv", "r") as csv_file:
 #print(dic)
 
 ######################################
-
-print("Welcome to Fuelish-CLI")
-print("Don't be foolish and know your prices")
-state = input("Enter your State: ").lower()
-fuel = input("Petrol or Diesel?(P/D)").lower()
-i=dic["State"].index(state)
-l=[]
-if fuel == "p":
-    l.append(["State","Price","Change"])
-    l.append([dic["State"][i].capitalize(),dic["Price(P)"][i],dic["Change(P)"][i]])
-elif fuel == "d":
-    l.append(["State","Price","Change"])
-    l.append([dic["State"][i].capitalize(),dic["Price(D)"][i],dic["Change(D)"][i]])
-
+while(True):
+    print("Welcome to Fuelish-CLI")
+    print("Don't be foolish and know your prices")
+    try:
+        state = input("Enter your State: ").lower()
+        fuel = input("Petrol or Diesel?(P/D)").lower()
+        i=dic["State"].index(state)
+        l=[]
+        if fuel == "p":
+            l.append(["State","Price","Change"])
+            l.append([dic["State"][i].capitalize(),dic["Price(P)"][i],dic["Change(P)"][i]])
+        elif fuel == "d":
+            l.append(["State","Price","Change"])
+            l.append([dic["State"][i].capitalize(),dic["Price(D)"][i],dic["Change(D)"][i]])
+        tablemaker(l)
+    except:
+        print("Something went wrong!")
+    
 ######################################
-
-tablemaker(l)
