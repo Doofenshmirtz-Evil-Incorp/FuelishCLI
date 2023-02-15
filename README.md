@@ -23,6 +23,9 @@ Fuelish stored data output
 ## Acknowledgements
 
  - [@Asvin1](https://github.com/Asvin1) for [CLI-table](https://github.com/Asvin1/CLI-table) tool
+
+ - Data courtsey to NDTV.com
+
 ## License
 
 [GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
