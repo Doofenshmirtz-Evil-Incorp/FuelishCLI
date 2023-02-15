@@ -3,7 +3,7 @@
 import requests
 import csv
 from bs4 import BeautifulSoup
-from tablemaker import tablemaker
+#from tablemaker import tablemaker
 
 ###################################
 
@@ -41,8 +41,6 @@ for Data_P in results1.find_all("td"):
         case 0:
             change_p.append(Data_P.text)
     x+=1
-#####################################
-
 x=1
 for Data_D in results2.find_all("td"):
     match (x%3):

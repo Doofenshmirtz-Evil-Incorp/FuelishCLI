@@ -14,7 +14,6 @@ with open("Data.csv", "r",encoding="utf-8") as csv_file:
         dic["Change(P)"].append(row["Change(P)"])
         dic["Price(D)"].append(row["Price(D)"])
         dic["Change(D)"].append(row["Change(D)"])
-#print(dic)
 
 ######################################
 while(True):
