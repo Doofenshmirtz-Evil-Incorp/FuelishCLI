@@ -20,7 +20,7 @@ with open("Data.csv", "r",encoding="utf-8") as csv_file:
 
 ######################################
 
-while(True):
+while True:
     print("Welcome to Fuelish-CLI")
     print("Don't be foolish and know your prices")
     try:
@@ -55,9 +55,11 @@ while(True):
                     elif fuel == "d":
                         l.append([dic["State"][i].capitalize(),dic["Price(D)"][i],dic["Change(D)"][i]])
         if(len(l)==0):
-            print("*Incorrect State*")
+            print("*Skill issue. Know about your country!*")
         else:
             l.insert(0,["State","Price","Change"])
             tablemaker(l)
+    except KeyboardInterrupt:
+        break
     except:
-        print("*Something went wrong!*")
+        print("*Kuch to hua hai*")
