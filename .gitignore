@@ -1,0 +1,9 @@
+tempCodeRunnerFile.py
+*.csv
+webdav.py
+test.py
+secret.py
+__pycache__/
+dist/
+fuelishcli.spec
+build/
