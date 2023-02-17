@@ -39,7 +39,12 @@ for Data_P in results1.find_all("td"):
         case 2:
             price_p.append(Data_P.text)
         case 0:
-            change_p.append(Data_P.text)
+            if(Data_P.find(class_="chngBx up")):
+                change_p.append("- "+Data_P.text)
+            elif(Data_P.find(class_="chngBx down")):
+                change_p.append("+ "+Data_P.text)
+            else:
+                change_p.append(Data_P.text)
     x+=1
 x=1
 for Data_D in results2.find_all("td"):
@@ -47,7 +52,12 @@ for Data_D in results2.find_all("td"):
         case 2:
             price_d.append(Data_D.text)
         case 0:
-            change_d.append(Data_D.text)
+            if(Data_D.find(class_="chngBx up")):
+                change_d.append("- "+Data_D.text)
+            elif(Data_D.find(class_="chngBx down")):
+                change_d.append("+ "+Data_D.text)
+            else:
+                change_d.append(Data_D.text)
     x+=1
 
 #####################################
