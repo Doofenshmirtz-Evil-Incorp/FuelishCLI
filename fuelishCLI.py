@@ -1,11 +1,42 @@
 import csv
 import re
-from tablemaker import tablemaker
+from tablemaker import tablemaker 
+import datetime
+import os
 import fuelish
 
 ######################################
-fuelish
+
+#check if the data file exists 
+
+if os.path.exists("Data.csv"):
+    pass
+else:
+    try:
+        fuelish.main()
+    except:
+        print("kindly connect to the internet for first time run")
+        exit()
+
 ######################################
+
+#download data only when updated in realtime
+
+now=datetime.datetime.now()
+updtime=now.replace(hour=6,minute=5,second=0)
+last_mod=os.path.getmtime("Data.csv")
+last_mod=datetime.datetime.fromtimestamp(last_mod)
+if(last_mod<updtime):
+    print("Updated")
+    try:
+        fuelish.main()
+    except:
+        print("you are offline, falling back to last known data")
+
+######################################
+
+#abbreviations for the available locations
+
 abv=["an","ap","ar","as","br","ch","ct","dn","dd","dl","ga","gj","hr","hp","jk","jh","ka","kl","mp","mh","mn","ml","mz","nl","od","py","pb","rj","sk","tn","ts","tr","up","uk","wb"]
 dic={"State":[],"Price(P)":[],"Change(P)":[],"Price(D)":[],"Change(D)":[],"abb":[]}
 with open("Data.csv", "r",encoding="utf-8") as csv_file:
@@ -20,9 +51,9 @@ with open("Data.csv", "r",encoding="utf-8") as csv_file:
 
 ######################################
 
+print("Welcome to Fuelish-CLI")
+print("Don't be foolish and know your prices")
 while True:
-    print("Welcome to Fuelish-CLI")
-    print("Don't be foolish and know your prices")
     try:
         ind=-1
         state_input = input("Enter your State: ").strip()
@@ -55,7 +86,7 @@ while True:
                     elif fuel == "d":
                         l.append([dic["State"][i].capitalize(),dic["Price(D)"][i],dic["Change(D)"][i]])
         if(len(l)==0):
-            print("*Skill issue. Know about your country!*")
+            print("*Skill issue. it's a you problem!*")
         else:
             l.insert(0,["State","Price","Change"])
             tablemaker(l)
@@ -63,3 +94,5 @@ while True:
         break
     except:
         print("*Kuch to hua hai*")
+
+######################################
