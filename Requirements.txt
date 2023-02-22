@@ -1,0 +1,6 @@
+bs4
+os
+requests
+csv
+re
+datetime
