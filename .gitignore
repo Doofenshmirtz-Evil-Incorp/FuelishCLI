@@ -4,6 +4,5 @@ webdav.py
 test.py
 secret.py
 __pycache__/
-*.spec
 build/
 dist/
