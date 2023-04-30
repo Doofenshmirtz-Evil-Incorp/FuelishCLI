@@ -2,7 +2,7 @@ name: Generate csv
 
 on:
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "45 0 * * *"
   push:
     branches:
       - main
