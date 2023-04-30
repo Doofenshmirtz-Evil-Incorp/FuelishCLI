@@ -21,8 +21,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r "src/requirements.txt"
       - name: run python file
-        run: python3 src/fuelish.py
-      - name: add files
         run: |
              python3 src/fuelish.py
              cd src
