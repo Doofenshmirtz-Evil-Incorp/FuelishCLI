@@ -24,12 +24,13 @@ jobs:
         run: python3 src/fuelish.py
       - name: add files
         run: |
-          cd src
-          ls
-          git config --global user.name "Bot"
-          git config --global user.email "your email"
-
-          git pull
-          git add -A
-          git commit -m "Data-${{ steps.date.outputs.date }}"
-          git push
+             python3 src/fuelish.py
+             cd src
+             ls
+             git config --global user.name "Bot"
+             git config --global user.email "your email"
+             git clean  -d  -f
+             git pull
+             git add -A
+             git commit -m "Data-${{ steps.date.outputs.date }}"
+             git push
