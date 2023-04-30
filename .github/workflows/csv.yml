@@ -28,7 +28,7 @@ jobs:
           ls
           git config --global user.name "Bot"
           git config --global user.email "your email"
-          git clean  -d  -f
+
           git pull
           git add -A
           git commit -m "Data-${{ steps.date.outputs.date }}"
