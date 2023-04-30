@@ -1,0 +1,35 @@
+name: Generate csv
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  push:
+    branches:
+      - master
+
+jobs:
+  run-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r "src/requirements.txt"
+      - name: run python file
+        run: python3 src/fuelish.py
+      - name: add files
+        run: |
+          cd src
+          ls
+          git config --global user.name "Bot"
+          git config --global user.email "your email"
+          git clean  -d  -f
+          git pull
+          git add -A
+          git commit -m "Data-${{ steps.date.outputs.date }}"
+          git push
