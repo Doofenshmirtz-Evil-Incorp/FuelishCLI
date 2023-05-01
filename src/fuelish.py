@@ -11,9 +11,9 @@ def main():
     page1 = requests.get(URL1)
     URL2 = "https://www.ndtv.com/fuel-prices/diesel-price-in-all-state"
     page2 = requests.get(URL2)
-    URL3 = "https://www.ndtv.com/fuel-prices/petrol-price-in-all-city"
+    URL3 = "https://www.ndtv.com/fuel-prices/petrol-price-in-india"
     page3 = requests.get(URL3)
-    URL4 = "https://www.ndtv.com/fuel-prices/diesel-price-in-all-city"
+    URL4 = "https://www.ndtv.com/fuel-prices/diesel-price-in-india"
     page4 = requests.get(URL4)
 
     #print(page.text)
@@ -36,6 +36,10 @@ def main():
     change_p = []
     price_d = []
     change_d = []
+    cprice_p = []
+    cchange_p = []
+    cprice_d = []
+    cchange_d = []
 
     x = 1
 
@@ -70,33 +74,33 @@ def main():
                 else:
                     change_d.append("  "+SData_D.text)
         x+=1
-
+    x=1
     for CData_P in results3.find_all("td"):
         match (x%3):
             case 1:
                 city.append(CData_P.text)
             case 2:
-                price_p.append(CData_P.text)
+                cprice_p.append(CData_P.text)
             case 0:
                 if(CData_P.find(class_="chngBx up")):
-                    change_p.append("- "+CData_P.text)
+                    cchange_p.append("- "+CData_P.text)
                 elif(CData_P.find(class_="chngBx down")):
-                    change_p.append("+ "+CData_P.text)
+                    cchange_p.append("+ "+CData_P.text)
                 else:
-                    change_p.append("  "+CData_P.text)
+                    cchange_p.append("  "+CData_P.text)
         x+=1
     x=1
     for CData_D in results4.find_all("td"):
         match (x%3):
             case 2:
-                price_d.append(CData_D.text)
+                cprice_d.append(CData_D.text)
             case 0:
                 if(CData_D.find(class_="chngBx up")):
-                    change_d.append("- "+CData_D.text)
+                    cchange_d.append("- "+CData_D.text)
                 elif(CData_D.find(class_="chngBx down")):
-                    change_d.append("+ "+CData_D.text)
+                    cchange_d.append("+ "+CData_D.text)
                 else:
-                    change_d.append("  "+CData_D.text)
+                    cchange_d.append("  "+CData_D.text)
         x+=1
 #####################################
 
@@ -109,7 +113,7 @@ def main():
 
     out2=[]
     out2.append(["City","Price(P)","Change(P)","Price(D)","Change(D)"])
-    for (i,j,k,l,m) in zip(city,price_p,change_p,price_d,change_d):
+    for (i,j,k,l,m) in zip(city,cprice_p,cchange_p,cprice_d,cchange_d):
         list2=[i,j,k,l,m]
         out2.append(list2)
     #tablemaker(out)
