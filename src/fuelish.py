@@ -66,6 +66,11 @@ def main():
         x+=1
     x=1
     for s in state:
+        city=[]
+        cprice_p = []
+        cchange_p = []
+        cprice_d = []
+        cchange_d = []
         URL3 = "https://www.ndtv.com/fuel-prices/petrol-price-in-"+s.replace(" ","-")+"-state"
         page3 = requests.get(URL3)
         URL4 = "https://www.ndtv.com/fuel-prices/diesel-price-in-"+s.replace(" ","-")+"-state"
