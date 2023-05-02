@@ -11,10 +11,6 @@ def main():
     page1 = requests.get(URL1)
     URL2 = "https://www.ndtv.com/fuel-prices/diesel-price-in-all-state"
     page2 = requests.get(URL2)
-    URL3 = "https://www.ndtv.com/fuel-prices/petrol-price-in-india"
-    page3 = requests.get(URL3)
-    URL4 = "https://www.ndtv.com/fuel-prices/diesel-price-in-india"
-    page4 = requests.get(URL4)
 
     #print(page.text)
     soup1 = BeautifulSoup(page1.content, "html.parser")
@@ -22,12 +18,6 @@ def main():
 
     soup2 = BeautifulSoup(page2.content, "html.parser")
     results2=soup2.find(id="myID")
-
-    soup3 = BeautifulSoup(page3.content, "html.parser")
-    results3=soup3.find(id="myID")
-
-    soup4 = BeautifulSoup(page4.content, "html.parser")
-    results4=soup4.find(id="myID")
 
     #create lists for each parameters
     state = []
@@ -75,33 +65,52 @@ def main():
                     change_d.append("  "+SData_D.text)
         x+=1
     x=1
-    for CData_P in results3.find_all("td"):
-        match (x%3):
-            case 1:
-                city.append(CData_P.text)
-            case 2:
-                cprice_p.append(CData_P.text)
-            case 0:
-                if(CData_P.find(class_="chngBx up")):
-                    cchange_p.append("- "+CData_P.text)
-                elif(CData_P.find(class_="chngBx down")):
-                    cchange_p.append("+ "+CData_P.text)
-                else:
-                    cchange_p.append("  "+CData_P.text)
-        x+=1
-    x=1
-    for CData_D in results4.find_all("td"):
-        match (x%3):
-            case 2:
-                cprice_d.append(CData_D.text)
-            case 0:
-                if(CData_D.find(class_="chngBx up")):
-                    cchange_d.append("- "+CData_D.text)
-                elif(CData_D.find(class_="chngBx down")):
-                    cchange_d.append("+ "+CData_D.text)
-                else:
-                    cchange_d.append("  "+CData_D.text)
-        x+=1
+    for s in state:
+        URL3 = "https://www.ndtv.com/fuel-prices/petrol-price-in-"+s.replace(" ","-")+"-state"
+        page3 = requests.get(URL3)
+        URL4 = "https://www.ndtv.com/fuel-prices/diesel-price-in-"+s.replace(" ","-")+"-state"
+        page4 = requests.get(URL4)
+        soup3 = BeautifulSoup(page3.content, "html.parser")
+        results3=soup3.find(id="myID")
+        soup4 = BeautifulSoup(page4.content, "html.parser")
+        results4=soup4.find(id="myID") 
+        for CData_P in results3.find_all("td"):
+            match (x%3):
+                case 1:
+                    city.append(CData_P.text)
+                case 2:
+                    cprice_p.append(CData_P.text)
+                case 0:
+                    if(CData_P.find(class_="chngBx up")):
+                        cchange_p.append("- "+CData_P.text)
+                    elif(CData_P.find(class_="chngBx down")):
+                        cchange_p.append("+ "+CData_P.text)
+                    else:
+                        cchange_p.append("  "+CData_P.text)
+            x+=1
+        x=1
+        for CData_D in results4.find_all("td"):
+            match (x%3):
+                case 2:
+                    cprice_d.append(CData_D.text)
+                case 0:
+                    if(CData_D.find(class_="chngBx up")):
+                        cchange_d.append("- "+CData_D.text)
+                    elif(CData_D.find(class_="chngBx down")):
+                        cchange_d.append("+ "+CData_D.text)
+                    else:
+                        cchange_d.append("  "+CData_D.text)
+            x+=1
+        out2=[]
+        out2.append(["City","Price(P)","Change(P)","Price(D)","Change(D)"])
+        for (i,j,k,l,m) in zip(city,cprice_p,cchange_p,cprice_d,cchange_d):
+            list2=[i,j,k,l,m]
+            out2.append(list2)
+        f=open("./assets/"+s+".csv","w",encoding="utf-8")
+        cswrite=csv.writer(f)
+        cswrite.writerows(out2)
+        f.close()
+        
 #####################################
 
     out1=[]
@@ -111,11 +120,11 @@ def main():
         out1.append(list1)
     #tablemaker(out)
 
-    out2=[]
-    out2.append(["City","Price(P)","Change(P)","Price(D)","Change(D)"])
-    for (i,j,k,l,m) in zip(city,cprice_p,cchange_p,cprice_d,cchange_d):
-        list2=[i,j,k,l,m]
-        out2.append(list2)
+    # out2=[]
+    # out2.append(["City","Price(P)","Change(P)","Price(D)","Change(D)"])
+    # for (i,j,k,l,m) in zip(city,cprice_p,cchange_p,cprice_d,cchange_d):
+    #     list2=[i,j,k,l,m]
+    #     out2.append(list2)
     #tablemaker(out)
 
 ######################################
@@ -126,11 +135,11 @@ def main():
     cswrite.writerows(out1)
     f.close()
 
-    f=open("City.csv","w",encoding="utf-8")
+    # f=open("City.csv","w",encoding="utf-8")
 
-    cswrite=csv.writer(f)
-    cswrite.writerows(out2)
-    f.close()
+    # cswrite=csv.writer(f)
+    # cswrite.writerows(out2)
+    # f.close()
 
 #######################################
 if __name__ == '__main__':
