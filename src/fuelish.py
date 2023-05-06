@@ -65,6 +65,7 @@ def main():
                     change_d.append("  "+SData_D.text)
         x+=1
     x=1
+    ses = requests.Session()
     for s in state:
         city=[]
         cprice_p = []
@@ -72,9 +73,9 @@ def main():
         cprice_d = []
         cchange_d = []
         URL3 = "https://www.ndtv.com/fuel-prices/petrol-price-in-"+s.replace(" ","-")+"-state"
-        page3 = requests.get(URL3)
+        page3 = ses.get(URL3)
         URL4 = "https://www.ndtv.com/fuel-prices/diesel-price-in-"+s.replace(" ","-")+"-state"
-        page4 = requests.get(URL4)
+        page4 = ses.get(URL4)
         soup3 = BeautifulSoup(page3.content, "html.parser")
         results3=soup3.find(id="myID")
         soup4 = BeautifulSoup(page4.content, "html.parser")
