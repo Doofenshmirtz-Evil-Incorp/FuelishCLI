@@ -2,6 +2,9 @@
 
 Welcome to Fuelish Backend, the Python program that retrieves daily fuel prices from ndtv.com at the ungodly hour of 6am so you don't have to. We built Fuelish Backend because we're tired of waking up early to check fuel prices, and we're sure you are too!
 
+## Status
+[![Generate csv](https://github.com/Doofenshmirtz-Evil-Incorp/FuelishCLI/actions/workflows/csv.yml/badge.svg)](https://github.com/Doofenshmirtz-Evil-Incorp/FuelishCLI/actions/workflows/csv.yml)
+
 ## Table of Contents
 
 - [Fuelish Backend](#fuelish-backend)
