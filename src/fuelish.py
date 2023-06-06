@@ -3,13 +3,29 @@
 import requests
 import csv
 from bs4 import BeautifulSoup
-
+import concurrent.futures
 ###################################
 
+def get_page(st,url):
+    resp = requests.get(url=url)
+    return {st:resp.content,}
+
+def asyncget(urls):
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+
+        futures = []
+        result={}
+        for i,j in zip(list(urls.keys()),list(urls.values())):
+            futures.append(executor.submit(get_page, st=i,url=j))
+
+        for future in concurrent.futures.as_completed(futures):
+            result.update(future.result())
+    return result
+
 def main():
-    URL1 = "https://www.ndtv.com/fuel-prices/petrol-price-in-all-state"
+    URL1 = "https://rapid-wave-c8e3.redfor14314.workers.dev/https://www.ndtv.com/fuel-prices/petrol-price-in-all-state"
     page1 = requests.get(URL1)
-    URL2 = "https://www.ndtv.com/fuel-prices/diesel-price-in-all-state"
+    URL2 = "https://rapid-wave-c8e3.redfor14314.workers.dev/https://www.ndtv.com/fuel-prices/diesel-price-in-all-state"
     page2 = requests.get(URL2)
 
     #print(page.text)
@@ -66,19 +82,29 @@ def main():
         x+=1
     x=1
     ses = requests.Session()
+    lstp={}
+    lstd={}
     for s in state:
+        lstp[s]=("https://rapid-wave-c8e3.redfor14314.workers.dev/https://www.ndtv.com/fuel-prices/petrol-price-in-"+s.replace(" ","-")+"-state")
+        lstd[s]=("https://rapid-wave-c8e3.redfor14314.workers.dev/https://www.ndtv.com/fuel-prices/diesel-price-in-"+s.replace(" ","-")+"-state")
+    lstp=asyncget(lstp)
+    lstd=asyncget(lstd)
+    keyp=list(lstp.keys())
+    keyp.sort()
+    keyd=list(lstd.keys())
+    keyd.sort()
+    lstp = {i: lstp[i] for i in keyp}
+    lstd = {i: lstd[i] for i in keyd}
+    for i,j,s in zip(list(lstp.values()),list(lstd.values()),state):
+        print(s)
         city=[]
         cprice_p = []
         cchange_p = []
         cprice_d = []
         cchange_d = []
-        URL3 = "https://www.ndtv.com/fuel-prices/petrol-price-in-"+s.replace(" ","-")+"-state"
-        page3 = ses.get(URL3)
-        URL4 = "https://www.ndtv.com/fuel-prices/diesel-price-in-"+s.replace(" ","-")+"-state"
-        page4 = ses.get(URL4)
-        soup3 = BeautifulSoup(page3.content, "html.parser")
+        soup3 = BeautifulSoup(i, "html.parser")
         results3=soup3.find(id="myID")
-        soup4 = BeautifulSoup(page4.content, "html.parser")
+        soup4 = BeautifulSoup(j, "html.parser")
         results4=soup4.find(id="myID") 
         for CData_P in results3.find_all("td"):
             match (x%3):
