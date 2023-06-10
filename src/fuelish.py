@@ -95,53 +95,57 @@ def main():
     keyd.sort()
     lstp = {i: lstp[i] for i in keyp}
     lstd = {i: lstd[i] for i in keyd}
-    for i,j,s in zip(list(lstp.values()),list(lstd.values()),state):
-        print(s)
-        city=[]
-        cprice_p = []
-        cchange_p = []
-        cprice_d = []
-        cchange_d = []
-        soup3 = BeautifulSoup(i, "html.parser")
-        results3=soup3.find(id="myID")
-        soup4 = BeautifulSoup(j, "html.parser")
-        results4=soup4.find(id="myID") 
-        for CData_P in results3.find_all("td"):
-            match (x%3):
-                case 1:
-                    city.append(CData_P.text)
-                case 2:
-                    cprice_p.append(CData_P.text)
-                case 0:
-                    if(CData_P.find(class_="chngBx up")):
-                        cchange_p.append("- "+CData_P.text)
-                    elif(CData_P.find(class_="chngBx down")):
-                        cchange_p.append("+ "+CData_P.text)
-                    else:
-                        cchange_p.append("  "+CData_P.text)
-            x+=1
-        x=1
-        for CData_D in results4.find_all("td"):
-            match (x%3):
-                case 2:
-                    cprice_d.append(CData_D.text)
-                case 0:
-                    if(CData_D.find(class_="chngBx up")):
-                        cchange_d.append("- "+CData_D.text)
-                    elif(CData_D.find(class_="chngBx down")):
-                        cchange_d.append("+ "+CData_D.text)
-                    else:
-                        cchange_d.append("  "+CData_D.text)
-            x+=1
-        out2=[]
-        out2.append(["City","Price(P)","Change(P)","Price(D)","Change(D)"])
-        for (i,j,k,l,m) in zip(city,cprice_p,cchange_p,cprice_d,cchange_d):
-            list2=[i,j,k,l,m]
-            out2.append(list2)
-        f=open("./assets/"+s+".csv","w",encoding="utf-8")
-        cswrite=csv.writer(f)
-        cswrite.writerows(out2)
-        f.close()
+    try:
+        for i,j,s in zip(list(lstp.values()),list(lstd.values()),state):
+            print(s)
+            city=[]
+            cprice_p = []
+            cchange_p = []
+            cprice_d = []
+            cchange_d = []
+            soup3 = BeautifulSoup(i, "html.parser")
+            results3=soup3.find(id="myID")
+            soup4 = BeautifulSoup(j, "html.parser")
+            results4=soup4.find(id="myID") 
+            for CData_P in results3.find_all("td"):
+                match (x%3):
+                    case 1:
+                        city.append(CData_P.text)
+                    case 2:
+                        cprice_p.append(CData_P.text)
+                    case 0:
+                        if(CData_P.find(class_="chngBx up")):
+                            cchange_p.append("- "+CData_P.text)
+                        elif(CData_P.find(class_="chngBx down")):
+                            cchange_p.append("+ "+CData_P.text)
+                        else:
+                            cchange_p.append("  "+CData_P.text)
+                x+=1
+            x=1
+            for CData_D in results4.find_all("td"):
+                match (x%3):
+                    case 2:
+                        cprice_d.append(CData_D.text)
+                    case 0:
+                        if(CData_D.find(class_="chngBx up")):
+                            cchange_d.append("- "+CData_D.text)
+                        elif(CData_D.find(class_="chngBx down")):
+                            cchange_d.append("+ "+CData_D.text)
+                        else:
+                            cchange_d.append("  "+CData_D.text)
+                x+=1
+            out2=[]
+            out2.append(["City","Price(P)","Change(P)","Price(D)","Change(D)"])
+            for (i,j,k,l,m) in zip(city,cprice_p,cchange_p,cprice_d,cchange_d):
+                list2=[i,j,k,l,m]
+                out2.append(list2)
+            f=open("./assets/"+s+".csv","w",encoding="utf-8")
+            cswrite=csv.writer(f)
+            cswrite.writerows(out2)
+            f.close()
+    except:
+        print("Re-run")
+        main()
         
 #####################################
 
