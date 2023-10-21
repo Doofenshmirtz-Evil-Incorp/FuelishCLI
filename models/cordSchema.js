@@ -43,24 +43,6 @@ const stateCordSchema = new Schema({
     }
 });
 
-const stateCordSchema = new Schema({
-
-    state : {
-        type : String,
-        require : true
-    },
-
-    lat : {
-        type : Number,
-        require : true
-    },
-
-    long : {
-        type : Number,
-        require : true
-    }
-});
-
 const boundSchema = new Schema({
 
     city : {
