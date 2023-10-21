@@ -1,0 +1,17 @@
+{
+  "name": "fuelishcli",
+  "version": "1.0.0",
+  "description": "Welcome to Fuelish Backend, the Python program that retrieves daily fuel prices from ndtv.com at the ungodly hour of 6am so you don't have to. We built Fuelish Backend because we're tired of waking up early to check fuel prices, and we're sure you are too!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "mongoose": "^7.6.3"
+  }
+}
