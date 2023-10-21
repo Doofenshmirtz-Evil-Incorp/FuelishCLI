@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const fs = require('fs');
 const csv = require('csv-parser');
 
-const { cityCord , stateCord } = require('../models/cordSchema');
+const { cityCord , stateCord , boundCord} = require('../models/cordSchema');
 const { fuelPriceSchema } = require('../models/fuelPriceSchema');
 
 const MONGO_URL = process.env.PORT || "mongodb://127.0.0.1:27017";
