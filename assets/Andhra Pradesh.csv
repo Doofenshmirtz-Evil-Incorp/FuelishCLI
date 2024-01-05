@@ -1,14 +1,14 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Anantapur,111.79 ₹/L,  0.00,99.52 ₹/L,  0.00
-Chittoor,112.88 ₹/L,+ 0.53,100.50 ₹/L,+ 0.49
-Cuddapah,110.70 ₹/L,- 0.06,98.51 ₹/L,- 0.05
-East Godavari,112.22 ₹/L,  NA,99.88 ₹/L,  NA
+Anantapur,112.00 ₹/L,+ 0.21,99.71 ₹/L,+ 0.19
+Chittoor,112.66 ₹/L,- 0.22,100.30 ₹/L,- 0.20
+Cuddapah,110.95 ₹/L,+ 0.25,98.73 ₹/L,+ 0.22
+East Godavari,111.37 ₹/L,- 0.85,99.13 ₹/L,- 0.75
 Guntur,111.76 ₹/L,  0.00,99.51 ₹/L,  0.00
-Krishna,111.89 ₹/L,  NA,99.63 ₹/L,  NA
-Kurnool,111.10 ₹/L,  NA,98.89 ₹/L,  NA
-Nellore,112.24 ₹/L,+ 0.26,99.91 ₹/L,+ 0.22
-Prakasam,111.94 ₹/L,- 0.21,99.65 ₹/L,- 0.20
-Srikakulam,111.84 ₹/L,  0.00,99.53 ₹/L,  0.00
+Krishna,111.38 ₹/L,- 0.51,99.16 ₹/L,- 0.47
+Kurnool,111.41 ₹/L,+ 0.31,99.18 ₹/L,+ 0.29
+Nellore,112.35 ₹/L,+ 0.11,100.01 ₹/L,+ 0.10
+Prakasam,111.54 ₹/L,- 0.40,99.29 ₹/L,- 0.36
+Srikakulam,112.37 ₹/L,+ 0.53,100.03 ₹/L,+ 0.50
 Vishakhapatnam,110.48 ₹/L,  0.00,98.27 ₹/L,  0.00
-Vizianagaram,111.06 ₹/L,+ 0.49,98.81 ₹/L,+ 0.46
-West Godavari,111.62 ₹/L,  0.00,99.36 ₹/L,  0.00
+Vizianagaram,110.88 ₹/L,- 0.18,98.64 ₹/L,- 0.17
+West Godavari,112.06 ₹/L,+ 0.44,99.77 ₹/L,+ 0.41
