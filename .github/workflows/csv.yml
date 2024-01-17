@@ -27,10 +27,14 @@ jobs:
              python3 src/fuelish.py
              cd src
              ls
-             git config --global user.name "Bot"
-             git config --global user.email "your email"
+             git config --global user.name "Aryaman Srivastava"
+             git config --global user.email "git.y56pp@slmail.me"
              git clean  -d  -f
              git pull
              git add -A
-             git commit -m "Data-"$NOW
+             git commit -m "Data-
+             >
+             >
+             Co-authored-by: actuallyaryaman <git.y56pp@slmail.me>
+             Co-authored-by: Asvin1"$NOW
              git push
