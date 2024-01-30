@@ -1,10 +1,10 @@
 City,Price(P),Change(P),Price(D),Change(D)
 East Garo Hills,96.62 ₹/L,  0.00,86.13 ₹/L,  0.00
-East Jaintia Hills,97.63 ₹/L,  0.00,87.17 ₹/L,  0.00
-East Khasi Hills,98.23 ₹/L,  0.00,87.18 ₹/L,  0.00
+East Jaintia Hills,97.76 ₹/L,+ 0.13,87.17 ₹/L,  0.00
+East Khasi Hills,97.96 ₹/L,- 0.27,87.18 ₹/L,  0.00
 North Garo Hills,96.67 ₹/L,  0.00,86.19 ₹/L,  0.00
-Ri Bhoi,96.22 ₹/L,  0.00,85.60 ₹/L,+ 0.10
-South Garo Hills,97.74 ₹/L,  0.00,87.25 ₹/L,  0.00
-Southwest Khasi Hils,98.15 ₹/L,  0.00,87.93 ₹/L,  0.00
-West Garo Hills,96.72 ₹/L,  0.00,86.86 ₹/L,  0.00
-West Khasi Hills,98.06 ₹/L,  0.00,87.54 ₹/L,  0.00
+Ri Bhoi,95.98 ₹/L,- 0.24,85.60 ₹/L,+ 0.10
+South Garo Hills,97.31 ₹/L,- 0.43,87.25 ₹/L,  0.00
+Southwest Khasi Hils,98.42 ₹/L,+ 0.27,87.93 ₹/L,  0.00
+West Garo Hills,97.24 ₹/L,+ 0.52,86.86 ₹/L,  0.00
+West Khasi Hills,98.42 ₹/L,+ 0.36,87.54 ₹/L,  0.00
