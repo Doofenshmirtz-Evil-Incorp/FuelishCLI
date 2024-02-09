@@ -8,6 +8,7 @@ import concurrent.futures
 
 def get_page(st,url):
     resp = requests.get(url=url)
+    print(st)
     return {st:resp.content,}
 
 def asyncget(urls):
@@ -23,9 +24,9 @@ def asyncget(urls):
     return result
 
 def main():
-    URL1 = "https://rapid-wave-c8e3.redfor14314.workers.dev/https://www.ndtv.com/fuel-prices/petrol-price-in-all-state"
+    URL1 = "https://www.ndtv.com/fuel-prices/petrol-price-in-all-state"
     page1 = requests.get(URL1)
-    URL2 = "https://rapid-wave-c8e3.redfor14314.workers.dev/https://www.ndtv.com/fuel-prices/diesel-price-in-all-state"
+    URL2 = "https://www.ndtv.com/fuel-prices/diesel-price-in-all-state"
     page2 = requests.get(URL2)
 
     #print(page.text)
@@ -85,8 +86,8 @@ def main():
     lstp={}
     lstd={}
     for s in state:
-        lstp[s]=("https://rapid-wave-c8e3.redfor14314.workers.dev/https://www.ndtv.com/fuel-prices/petrol-price-in-"+s.replace(" ","-")+"-state")
-        lstd[s]=("https://rapid-wave-c8e3.redfor14314.workers.dev/https://www.ndtv.com/fuel-prices/diesel-price-in-"+s.replace(" ","-")+"-state")
+        lstp[s]=("https://www.ndtv.com/fuel-prices/petrol-price-in-"+s.replace(" ","-")+"-state")
+        lstd[s]=("https://www.ndtv.com/fuel-prices/diesel-price-in-"+s.replace(" ","-")+"-state")
     lstp=asyncget(lstp)
     lstd=asyncget(lstd)
     keyp=list(lstp.keys())
@@ -97,7 +98,7 @@ def main():
     lstd = {i: lstd[i] for i in keyd}
     try:
         for i,j,s in zip(list(lstp.values()),list(lstd.values()),state):
-            print(s)
+            print("csv-",s)
             city=[]
             cprice_p = []
             cchange_p = []
