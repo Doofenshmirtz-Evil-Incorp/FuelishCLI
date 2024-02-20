@@ -1,9 +1,15 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Alappuzha,108.58 ₹/L,+ 0.38,97.45 ₹/L,+ 0.36
-Ernakulam,107.61 ₹/L,- 0.11,96.54 ₹/L,- 0.10
-Kannur,108.32 ₹/L,+ 0.37,97.23 ₹/L,+ 0.35
-Kozhikode,108.33 ₹/L,+ 0.44,97.24 ₹/L,+ 0.41
-Palakkad,108.76 ₹/L,  0.00,97.62 ₹/L,  0.00
-Pathananthitta,108.46 ₹/L,- 0.22,97.33 ₹/L,- 0.22
-Thiruvananthapuram,109.42 ₹/L,- 0.31,98.24 ₹/L,- 0.29
-Wayanad,109.38 ₹/L,  0.00,98.08 ₹/L,  0.00
+Alappuzha,108.09 ₹/L,- 0.49,96.99 ₹/L,- 0.46
+Ernakulam,107.61 ₹/L,  0.00,96.54 ₹/L,  0.00
+Idukki,108.02 ₹/L,  NA,96.93 ₹/L,  NA
+Kannur,108.20 ₹/L,- 0.12,97.12 ₹/L,- 0.11
+Kasaragod,108.51 ₹/L,  NA,97.41 ₹/L,  NA
+Kollam,109.11 ₹/L,  NA,97.95 ₹/L,  NA
+Kottayam,107.83 ₹/L,  NA,96.74 ₹/L,  NA
+Kozhikode,108.27 ₹/L,- 0.06,97.18 ₹/L,- 0.06
+Malappuram,108.14 ₹/L,  NA,97.06 ₹/L,  NA
+Palakkad,108.79 ₹/L,+ 0.03,97.65 ₹/L,+ 0.03
+Pathananthitta,108.75 ₹/L,+ 0.29,97.61 ₹/L,+ 0.28
+Thiruvananthapuram,109.73 ₹/L,+ 0.31,98.53 ₹/L,+ 0.29
+Thrissur,108.20 ₹/L,  NA,97.09 ₹/L,  NA
+Wayanad,109.21 ₹/L,- 0.17,97.94 ₹/L,- 0.14
