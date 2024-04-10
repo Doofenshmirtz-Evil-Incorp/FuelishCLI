@@ -1,5 +1,5 @@
 City,Price(P),Change(P),Price(D),Change(D)
-East District,100.85 ₹/L,  0.00,87.95 ₹/L,  0.00
-North District,100.85 ₹/L,  0.00,87.95 ₹/L,  0.00
-South District,100.85 ₹/L,  0.00,87.95 ₹/L,  0.00
-West District,100.85 ₹/L,  0.00,87.95 ₹/L,  0.00
+East District,100.85 ₹/L,  0.00,88.00 ₹/L,+ 0.05
+North District,100.85 ₹/L,  0.00,88.00 ₹/L,+ 0.05
+South District,100.85 ₹/L,  0.00,88.00 ₹/L,+ 0.05
+West District,100.85 ₹/L,  0.00,88.00 ₹/L,+ 0.05
