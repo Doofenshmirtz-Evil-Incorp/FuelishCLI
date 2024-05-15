@@ -1,23 +1,23 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Ambala,95.25 ₹/L,  NA,88.08 ₹/L,  NA
-Bhiwani,96.12 ₹/L,  NA,88.93 ₹/L,  NA
-Charki Dadri,95.29 ₹/L,  NA,88.14 ₹/L,  NA
-Faridabad,95.50 ₹/L,  NA,88.35 ₹/L,  NA
-Fatehabad,95.99 ₹/L,  NA,88.81 ₹/L,  NA
-Gurgaon,95.05 ₹/L,  NA,87.91 ₹/L,  NA
-Hisar,95.90 ₹/L,  NA,88.72 ₹/L,  NA
-Jhajjar,95.28 ₹/L,  NA,88.14 ₹/L,  NA
-Jind,94.82 ₹/L,  NA,87.66 ₹/L,  NA
-Kaithal,95.05 ₹/L,  NA,87.89 ₹/L,  NA
-Karnal,94.73 ₹/L,  NA,87.54 ₹/L,  NA
-Kurukshetra,95.23 ₹/L,  NA,88.07 ₹/L,  NA
-Mahendragarh,95.12 ₹/L,  NA,87.98 ₹/L,  NA
-Mewat,94.91 ₹/L,  NA,87.77 ₹/L,  NA
-Palwal,95.57 ₹/L,  NA,88.42 ₹/L,  NA
-Panchkula,95.83 ₹/L,  NA,88.65 ₹/L,  NA
-Panipat,94.55 ₹/L,  NA,87.33 ₹/L,  NA
-Rewari,94.65 ₹/L,  NA,87.48 ₹/L,  NA
-Rohtak,95.25 ₹/L,  NA,88.08 ₹/L,  NA
-Sirsa,96.86 ₹/L,  NA,89.66 ₹/L,  NA
-Sonipat,94.87 ₹/L,  NA,87.71 ₹/L,  NA
-Yamunanagar,95.36 ₹/L,  NA,88.19 ₹/L,  NA
+Ambala,95.46 ₹/L,+ 0.21,88.08 ₹/L,  NA
+Bhiwani,95.51 ₹/L,- 0.61,88.93 ₹/L,  NA
+Charki Dadri,94.99 ₹/L,- 0.30,88.14 ₹/L,  NA
+Faridabad,95.26 ₹/L,- 0.24,88.35 ₹/L,  NA
+Fatehabad,95.99 ₹/L,  0.00,88.81 ₹/L,  NA
+Gurgaon,95.05 ₹/L,  0.00,87.91 ₹/L,  NA
+Hisar,95.65 ₹/L,- 0.25,88.72 ₹/L,  NA
+Jhajjar,94.87 ₹/L,- 0.41,88.14 ₹/L,  NA
+Jind,95.19 ₹/L,+ 0.37,87.66 ₹/L,  NA
+Kaithal,94.82 ₹/L,- 0.23,87.89 ₹/L,  NA
+Karnal,94.55 ₹/L,- 0.18,87.54 ₹/L,  NA
+Kurukshetra,95.00 ₹/L,- 0.23,88.07 ₹/L,  NA
+Mahendragarh,95.09 ₹/L,- 0.03,87.98 ₹/L,  NA
+Mewat,95.45 ₹/L,+ 0.54,87.77 ₹/L,  NA
+Palwal,95.45 ₹/L,- 0.12,88.42 ₹/L,  NA
+Panchkula,95.85 ₹/L,+ 0.02,88.65 ₹/L,  NA
+Panipat,94.72 ₹/L,+ 0.17,87.33 ₹/L,  NA
+Rewari,94.66 ₹/L,+ 0.01,87.48 ₹/L,  NA
+Rohtak,95.27 ₹/L,+ 0.02,88.08 ₹/L,  NA
+Sirsa,96.08 ₹/L,- 0.78,89.66 ₹/L,  NA
+Sonipat,95.20 ₹/L,+ 0.33,87.71 ₹/L,  NA
+Yamunanagar,95.33 ₹/L,- 0.03,88.19 ₹/L,  NA
