@@ -1,33 +1,33 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Baksa,96.59 ₹/L,+ 0.18,88.64 ₹/L,- 0.18
-Barpeta,96.55 ₹/L,- 0.09,88.87 ₹/L,  NA
-Biswanath,96.85 ₹/L,- 0.43,89.55 ₹/L,  NA
-Bongaigaon,96.13 ₹/L,- 0.24,88.61 ₹/L,  NA
-Cachar,96.65 ₹/L,  0.00,88.92 ₹/L,  NA
-Charaideo,97.05 ₹/L,  0.00,89.30 ₹/L,  NA
-Chirang,96.10 ₹/L,  0.00,88.34 ₹/L,  NA
-Darrang,96.44 ₹/L,- 0.25,88.93 ₹/L,  NA
-Dhemaji,97.09 ₹/L,- 0.39,89.73 ₹/L,  NA
-Dhuburi,97.36 ₹/L,+ 0.88,88.72 ₹/L,  NA
-Dibrugarh,96.32 ₹/L,- 0.66,89.24 ₹/L,  NA
-Dima Hasao,97.81 ₹/L,- 0.56,90.65 ₹/L,  NA
-Goalpara,96.83 ₹/L,- 0.02,89.11 ₹/L,  NA
-Golaghat,96.26 ₹/L,- 0.38,88.87 ₹/L,  NA
-Hailakandi,96.70 ₹/L,- 0.40,89.40 ₹/L,  NA
-Hojai,96.82 ₹/L,  0.00,89.11 ₹/L,  NA
-Jorhat,96.53 ₹/L,+ 0.04,88.73 ₹/L,  NA
-Kamrup,96.13 ₹/L,- 0.36,88.73 ₹/L,  NA
-Kamrup Metro,96.13 ₹/L,  0.00,88.38 ₹/L,  NA
-Karbi Anglong,96.29 ₹/L,- 0.35,88.87 ₹/L,  NA
-Karimganj,97.22 ₹/L,+ 0.11,89.41 ₹/L,  NA
-Kokrajhar,96.59 ₹/L,+ 0.31,88.52 ₹/L,  NA
-Lakhimpur,97.76 ₹/L,- 0.56,90.57 ₹/L,  NA
-Majuli,98.29 ₹/L,  0.00,90.53 ₹/L,  NA
-Morigaon,97.29 ₹/L,+ 0.68,88.84 ₹/L,  NA
-Nagaon,97.24 ₹/L,+ 0.17,89.36 ₹/L,  NA
-Nalbari,96.66 ₹/L,+ 0.35,88.55 ₹/L,  NA
-Sibsagar,97.22 ₹/L,  0.00,89.48 ₹/L,  NA
-Sonitpur,96.28 ₹/L,- 0.03,88.56 ₹/L,  NA
-Tinsukia,96.34 ₹/L,  0.00,88.58 ₹/L,  NA
-Udalguri,96.72 ₹/L,- 0.38,89.36 ₹/L,  NA
-West Karbi Anglong,97.46 ₹/L,  0.00,89.73 ₹/L,  NA
+Baksa,96.38 ₹/L,- 0.21,88.62 ₹/L,- 0.20
+Barpeta,96.55 ₹/L,  0.00,88.79 ₹/L,  0.00
+Biswanath,96.85 ₹/L,  0.00,89.13 ₹/L,  0.00
+Bongaigaon,96.13 ₹/L,  0.00,88.37 ₹/L,  0.00
+Cachar,96.65 ₹/L,  0.00,88.92 ₹/L,  0.00
+Charaideo,97.05 ₹/L,  0.00,89.30 ₹/L,  0.00
+Chirang,96.10 ₹/L,  0.00,88.34 ₹/L,  0.00
+Darrang,96.44 ₹/L,  0.00,88.68 ₹/L,  0.00
+Dhemaji,97.09 ₹/L,  0.00,89.35 ₹/L,  0.00
+Dhuburi,97.36 ₹/L,  0.00,89.61 ₹/L,  0.00
+Dibrugarh,96.32 ₹/L,  0.00,88.56 ₹/L,  0.00
+Dima Hasao,97.81 ₹/L,  0.00,90.09 ₹/L,  0.00
+Goalpara,96.83 ₹/L,  0.00,89.09 ₹/L,  0.00
+Golaghat,96.26 ₹/L,  0.00,88.50 ₹/L,  0.00
+Hailakandi,96.70 ₹/L,  0.00,88.99 ₹/L,  0.00
+Hojai,96.82 ₹/L,  0.00,89.11 ₹/L,  0.00
+Jorhat,96.53 ₹/L,  0.00,88.77 ₹/L,  0.00
+Kamrup,96.13 ₹/L,  0.00,88.38 ₹/L,  0.00
+Kamrup Metro,96.13 ₹/L,  0.00,88.38 ₹/L,  0.00
+Karbi Anglong,96.29 ₹/L,  0.00,88.53 ₹/L,  0.00
+Karimganj,97.22 ₹/L,  0.00,89.52 ₹/L,  0.00
+Kokrajhar,96.59 ₹/L,  0.00,88.83 ₹/L,  0.00
+Lakhimpur,97.76 ₹/L,  0.00,90.02 ₹/L,  0.00
+Majuli,98.29 ₹/L,  0.00,90.53 ₹/L,  0.00
+Morigaon,97.29 ₹/L,  0.00,89.55 ₹/L,  0.00
+Nagaon,97.24 ₹/L,  0.00,89.50 ₹/L,  0.00
+Nalbari,96.66 ₹/L,  0.00,88.90 ₹/L,  0.00
+Sibsagar,97.22 ₹/L,  0.00,89.48 ₹/L,  0.00
+Sonitpur,96.28 ₹/L,  0.00,88.54 ₹/L,  0.00
+Tinsukia,96.34 ₹/L,  0.00,88.58 ₹/L,  0.00
+Udalguri,96.72 ₹/L,  0.00,88.96 ₹/L,  0.00
+West Karbi Anglong,97.46 ₹/L,  0.00,89.73 ₹/L,  0.00
