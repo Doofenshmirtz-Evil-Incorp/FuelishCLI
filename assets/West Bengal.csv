@@ -1,24 +1,24 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Alipurduar,104.73 ₹/L,+ 0.25,91.49 ₹/L,+ 0.24
-Bankura,104.63 ₹/L,+ 0.43,91.40 ₹/L,+ 0.40
-Birbhum,104.60 ₹/L,+ 0.05,91.38 ₹/L,+ 0.05
-Cooch Bihar,104.70 ₹/L,- 0.61,91.46 ₹/L,- 0.56
-Dakshin Dinajpur,104.02 ₹/L,- 0.26,90.83 ₹/L,- 0.24
-Darjeeling,103.79 ₹/L,- 0.11,90.61 ₹/L,- 0.11
-Hooghly,104.23 ₹/L,- 0.33,91.03 ₹/L,- 0.30
+Alipurduar,104.73 ₹/L,  0.00,91.49 ₹/L,  0.00
+Bankura,104.85 ₹/L,+ 0.22,91.61 ₹/L,+ 0.21
+Birbhum,104.60 ₹/L,  0.00,91.38 ₹/L,  0.00
+Cooch Bihar,105.05 ₹/L,+ 0.35,91.78 ₹/L,+ 0.32
+Dakshin Dinajpur,104.02 ₹/L,  0.00,90.83 ₹/L,  0.00
+Darjeeling,103.73 ₹/L,- 0.06,90.56 ₹/L,- 0.05
+Hooghly,104.12 ₹/L,- 0.11,90.92 ₹/L,- 0.11
 Howrah,103.94 ₹/L,  0.00,90.76 ₹/L,  0.00
-Jalpaiguri,104.37 ₹/L,+ 0.72,91.16 ₹/L,+ 0.68
+Jalpaiguri,105.20 ₹/L,+ 0.83,91.93 ₹/L,+ 0.77
 Jhargram,104.80 ₹/L,  0.00,91.52 ₹/L,  0.00
 Kalimpong,103.90 ₹/L,  0.00,90.71 ₹/L,  0.00
 Kolkata,103.94 ₹/L,  0.00,90.76 ₹/L,  0.00
-Malda,103.72 ₹/L,- 0.15,90.56 ₹/L,- 0.13
-Murshidabad,105.31 ₹/L,+ 0.38,92.03 ₹/L,+ 0.35
-Nadia,104.90 ₹/L,+ 0.44,91.65 ₹/L,+ 0.41
-North 24 Parganas,104.36 ₹/L,- 0.16,91.14 ₹/L,- 0.16
-Paschim Bardhaman,104.20 ₹/L,+ 0.43,91.00 ₹/L,+ 0.39
-Paschim Medinipur,104.41 ₹/L,- 0.18,91.16 ₹/L,- 0.16
-Purba Bardhaman,104.53 ₹/L,+ 0.19,91.31 ₹/L,+ 0.18
-Purba Medinipur,104.08 ₹/L,+ 0.11,90.86 ₹/L,+ 0.11
-Purulia,104.47 ₹/L,- 0.30,91.25 ₹/L,- 0.28
-South 24 Parganas,103.95 ₹/L,- 0.21,90.77 ₹/L,- 0.19
-Uttar Dinajpur,104.21 ₹/L,- 0.21,91.01 ₹/L,- 0.19
+Malda,103.72 ₹/L,  0.00,90.56 ₹/L,  0.00
+Murshidabad,104.45 ₹/L,- 0.86,91.23 ₹/L,- 0.80
+Nadia,104.65 ₹/L,- 0.25,91.42 ₹/L,- 0.23
+North 24 Parganas,103.94 ₹/L,- 0.42,90.76 ₹/L,- 0.38
+Paschim Bardhaman,103.77 ₹/L,- 0.43,90.61 ₹/L,- 0.39
+Paschim Medinipur,104.64 ₹/L,+ 0.23,91.37 ₹/L,+ 0.21
+Purba Bardhaman,104.45 ₹/L,- 0.08,91.23 ₹/L,- 0.08
+Purba Medinipur,103.25 ₹/L,- 0.83,90.08 ₹/L,- 0.78
+Purulia,104.65 ₹/L,+ 0.18,91.42 ₹/L,+ 0.17
+South 24 Parganas,104.69 ₹/L,+ 0.74,91.45 ₹/L,+ 0.68
+Uttar Dinajpur,104.38 ₹/L,+ 0.17,91.16 ₹/L,+ 0.15
