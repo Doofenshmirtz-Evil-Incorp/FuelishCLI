@@ -1,34 +1,34 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Adilabad,109.41 ₹/L,  0.00,97.51 ₹/L,  0.00
-Bhadradri Kothagudem,108.80 ₹/L,+ 0.35,96.61 ₹/L,  0.00
+Adilabad,109.67 ₹/L,+ 0.26,97.75 ₹/L,+ 0.24
+Bhadradri Kothagudem,108.39 ₹/L,- 0.06,96.56 ₹/L,- 0.05
 Hyderabad,107.41 ₹/L,  0.00,95.65 ₹/L,  0.00
-Jagitial,108.80 ₹/L,+ 0.71,96.28 ₹/L,  0.00
-Jangaon,107.13 ₹/L,- 0.61,95.95 ₹/L,  0.00
-Jayashankar Bhupalpa,107.30 ₹/L,- 0.11,95.63 ₹/L,  0.00
-Jogulamba Gadwal,109.58 ₹/L,+ 0.09,97.60 ₹/L,  0.00
-Kamareddy,108.46 ₹/L,- 0.76,97.34 ₹/L,+ 0.72
-Karim Nagar,107.53 ₹/L,+ 0.01,95.75 ₹/L,+ 0.01
-Khammam,108.64 ₹/L,  0.00,95.49 ₹/L,- 0.16
-Komram Bheem Asifaba,109.61 ₹/L,+ 0.43,97.30 ₹/L,  0.00
-Mahabubabad,107.65 ₹/L,+ 0.43,95.86 ₹/L,+ 0.40
-Mancherial,108.69 ₹/L,- 0.02,96.86 ₹/L,  0.00
-Medak,107.74 ₹/L,- 0.80,96.72 ₹/L,+ 0.01
+Jagitial,108.09 ₹/L,  0.00,96.28 ₹/L,  0.00
+Jangaon,107.02 ₹/L,- 0.72,95.27 ₹/L,- 0.68
+Jayashankar Bhupalpa,107.32 ₹/L,- 0.09,95.55 ₹/L,- 0.08
+Jogulamba Gadwal,109.58 ₹/L,+ 0.09,97.68 ₹/L,+ 0.08
+Kamareddy,108.46 ₹/L,- 0.76,96.62 ₹/L,- 0.72
+Karim Nagar,107.32 ₹/L,- 0.21,95.55 ₹/L,- 0.20
+Khammam,107.43 ₹/L,+ 0.17,95.65 ₹/L,+ 0.16
+Komram Bheem Asifaba,109.61 ₹/L,+ 0.43,97.70 ₹/L,+ 0.40
+Mahabubabad,107.24 ₹/L,- 0.41,95.48 ₹/L,- 0.38
+Mancherial,108.44 ₹/L,- 0.27,96.61 ₹/L,- 0.25
+Medak,107.74 ₹/L,- 0.81,95.96 ₹/L,- 0.76
 Medchal Malkajgiri,107.41 ₹/L,  0.00,95.65 ₹/L,  0.00
-Mehabubnagar,108.92 ₹/L,+ 0.74,96.53 ₹/L,+ 0.15
-Mulugu,108.14 ₹/L,+ 1.10,95.59 ₹/L,+ 0.30
-Nagarkurnool,108.67 ₹/L,- 0.39,96.35 ₹/L,- 0.84
-Nalgonda,106.99 ₹/L,- 0.33,95.54 ₹/L,  0.00
-Narayanpet,108.82 ₹/L,- 0.33,97.28 ₹/L,  0.00
-Nirmal,108.86 ₹/L,- 0.24,97.81 ₹/L,+ 0.59
-Nizamabad,109.01 ₹/L,- 0.33,97.31 ₹/L,+ 0.34
-Peddapalli,107.96 ₹/L,+ 0.02,95.88 ₹/L,- 0.26
-Rajanna Sircilla,107.74 ₹/L,- 0.19,96.12 ₹/L,  0.00
-Rangareddi,107.41 ₹/L,- 0.40,95.65 ₹/L,- 0.38
-Sangareddy,108.55 ₹/L,+ 0.15,96.62 ₹/L,+ 0.04
-Siddipet,107.64 ₹/L,- 0.17,96.02 ₹/L,+ 0.56
-Suryapet,107.11 ₹/L,  0.00,95.31 ₹/L,- 0.04
-Vikarabad,108.26 ₹/L,- 0.20,96.86 ₹/L,  0.00
-Wanaparthy,108.53 ₹/L,- 0.76,97.41 ₹/L,  0.00
-Warangal,107.06 ₹/L,+ 0.22,95.11 ₹/L,  0.00
-Warangal Rural,107.07 ₹/L,+ 0.04,95.28 ₹/L,  0.00
+Mehabubnagar,108.53 ₹/L,+ 0.18,96.70 ₹/L,+ 0.17
+Mulugu,108.18 ₹/L,+ 0.83,96.36 ₹/L,+ 0.77
+Nagarkurnool,108.69 ₹/L,+ 0.53,96.85 ₹/L,+ 0.50
+Nalgonda,107.04 ₹/L,- 0.28,95.28 ₹/L,- 0.26
+Narayanpet,108.82 ₹/L,- 0.33,96.97 ₹/L,- 0.31
+Nirmal,109.49 ₹/L,- 0.25,97.59 ₹/L,- 0.22
+Nizamabad,109.01 ₹/L,- 0.19,97.14 ₹/L,- 0.17
+Peddapalli,107.84 ₹/L,+ 0.18,96.05 ₹/L,+ 0.17
+Rajanna Sircilla,108.00 ₹/L,+ 0.07,96.20 ₹/L,+ 0.08
+Rangareddi,107.41 ₹/L,  0.00,95.65 ₹/L,  0.00
+Sangareddy,108.55 ₹/L,+ 0.10,96.72 ₹/L,+ 0.10
+Siddipet,107.53 ₹/L,- 0.28,95.75 ₹/L,- 0.27
+Suryapet,107.38 ₹/L,+ 0.32,95.60 ₹/L,+ 0.29
+Vikarabad,108.23 ₹/L,- 0.47,96.42 ₹/L,- 0.44
+Wanaparthy,108.79 ₹/L,- 0.50,96.95 ₹/L,- 0.46
+Warangal,106.99 ₹/L,+ 0.15,95.25 ₹/L,+ 0.14
+Warangal Rural,106.84 ₹/L,- 0.19,95.11 ₹/L,- 0.17
 Yadadri Bhuvanagiri,107.44 ₹/L,- 0.04,95.69 ₹/L,  0.00
