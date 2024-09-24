@@ -1,14 +1,14 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Almora,93.78 ₹/L,  NA,88.55 ₹/L,  NA
-Bageshwar,94.05 ₹/L,  NA,89.02 ₹/L,  NA
-Chamoli,95.37 ₹/L,  NA,90.23 ₹/L,  NA
-Champawat,94.37 ₹/L,  NA,89.32 ₹/L,  NA
-Dehradun,93.22 ₹/L,  NA,88.02 ₹/L,  NA
-Haridwar,92.67 ₹/L,  NA,87.50 ₹/L,  NA
-Nainital,93.05 ₹/L,  NA,87.97 ₹/L,  NA
-Pauri,95.12 ₹/L,  NA,89.98 ₹/L,  NA
-Pithoragarh,95.19 ₹/L,  NA,89.96 ₹/L,  NA
-Rudraprayag,95.10 ₹/L,  NA,90.03 ₹/L,  NA
-Tehri Garhwal,94.35 ₹/L,  NA,89.07 ₹/L,  NA
-Udham Singh Nagar,93.28 ₹/L,  NA,88.23 ₹/L,  NA
-Uttarkashi,94.47 ₹/L,  NA,89.37 ₹/L,  NA
+Almora,93.80 ₹/L,+ 0.02,88.51 ₹/L,- 0.04
+Bageshwar,94.05 ₹/L,  0.00,89.02 ₹/L,  0.00
+Chamoli,95.37 ₹/L,  0.00,90.23 ₹/L,  0.00
+Champawat,94.37 ₹/L,  0.00,89.32 ₹/L,  0.00
+Dehradun,93.16 ₹/L,- 0.06,87.98 ₹/L,- 0.04
+Haridwar,92.62 ₹/L,- 0.05,87.45 ₹/L,- 0.05
+Nainital,93.05 ₹/L,  0.00,87.97 ₹/L,  0.00
+Pauri,95.12 ₹/L,  0.00,89.98 ₹/L,  0.00
+Pithoragarh,95.19 ₹/L,  0.00,89.96 ₹/L,  0.00
+Rudraprayag,95.10 ₹/L,  0.00,90.03 ₹/L,  0.00
+Tehri Garhwal,94.35 ₹/L,  0.00,89.07 ₹/L,  0.00
+Udham Singh Nagar,93.04 ₹/L,- 0.24,87.95 ₹/L,- 0.28
+Uttarkashi,94.47 ₹/L,  0.00,89.37 ₹/L,  0.00

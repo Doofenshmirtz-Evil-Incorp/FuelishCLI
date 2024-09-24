@@ -1,25 +1,25 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Bokaro,98.17 ₹/L,  NA,92.92 ₹/L,  NA
-Chatra,99.43 ₹/L,  NA,94.18 ₹/L,  NA
-Deogarh,97.59 ₹/L,  NA,92.28 ₹/L,  NA
-Dhanbad,97.77 ₹/L,  NA,92.51 ₹/L,  NA
-Dumka,98.50 ₹/L,  NA,93.22 ₹/L,  NA
-East Singhbhum,98.25 ₹/L,  NA,92.99 ₹/L,  NA
-Garhwa,100.60 ₹/L,  NA,95.34 ₹/L,  NA
-Giridih,98.58 ₹/L,  NA,93.31 ₹/L,  NA
-Godda,98.52 ₹/L,  NA,93.23 ₹/L,  NA
-Gumla,98.29 ₹/L,  NA,93.04 ₹/L,  NA
-Hazaribagh,98.46 ₹/L,  NA,93.21 ₹/L,  NA
-Jamtara,98.38 ₹/L,  NA,93.10 ₹/L,  NA
-Khunti,97.87 ₹/L,  NA,92.63 ₹/L,  NA
-Koderma,98.64 ₹/L,  NA,93.35 ₹/L,  NA
-Latehar,98.84 ₹/L,  NA,93.59 ₹/L,  NA
-Lohardaga,98.69 ₹/L,  NA,93.44 ₹/L,  NA
-Pakur,99.17 ₹/L,  NA,93.88 ₹/L,  NA
-Palamau,100.71 ₹/L,  NA,95.45 ₹/L,  NA
-Ramgarh,98.35 ₹/L,  NA,93.10 ₹/L,  NA
-Ranchi,98.12 ₹/L,  NA,92.87 ₹/L,  NA
-Sahibganj,99.30 ₹/L,  NA,94.02 ₹/L,  NA
-Saraikela Kharasawan,97.75 ₹/L,  NA,92.49 ₹/L,  NA
-Simdega,98.78 ₹/L,  NA,93.53 ₹/L,  NA
-West Singhbhum,99.10 ₹/L,  NA,93.83 ₹/L,  NA
+Bokaro,98.20 ₹/L,+ 0.03,92.94 ₹/L,+ 0.02
+Chatra,99.43 ₹/L,  0.00,94.18 ₹/L,  0.00
+Deogarh,97.59 ₹/L,  0.00,92.28 ₹/L,  0.00
+Dhanbad,98.08 ₹/L,+ 0.31,92.83 ₹/L,+ 0.32
+Dumka,97.97 ₹/L,- 0.53,92.69 ₹/L,- 0.53
+East Singhbhum,97.75 ₹/L,- 0.50,92.49 ₹/L,- 0.50
+Garhwa,100.60 ₹/L,  0.00,95.34 ₹/L,  0.00
+Giridih,98.48 ₹/L,- 0.10,93.22 ₹/L,- 0.09
+Godda,98.24 ₹/L,- 0.28,92.96 ₹/L,- 0.27
+Gumla,98.29 ₹/L,  0.00,93.04 ₹/L,  0.00
+Hazaribagh,98.83 ₹/L,+ 0.37,93.56 ₹/L,+ 0.35
+Jamtara,98.38 ₹/L,  0.00,93.10 ₹/L,  0.00
+Khunti,97.73 ₹/L,- 0.14,92.49 ₹/L,- 0.14
+Koderma,98.64 ₹/L,  0.00,93.35 ₹/L,  0.00
+Latehar,99.63 ₹/L,+ 0.79,94.37 ₹/L,+ 0.78
+Lohardaga,98.69 ₹/L,  0.00,93.44 ₹/L,  0.00
+Pakur,99.17 ₹/L,  0.00,93.88 ₹/L,  0.00
+Palamau,99.74 ₹/L,- 0.97,94.48 ₹/L,- 0.97
+Ramgarh,98.48 ₹/L,+ 0.13,93.23 ₹/L,+ 0.13
+Ranchi,98.10 ₹/L,- 0.02,92.86 ₹/L,- 0.01
+Sahibganj,99.30 ₹/L,  0.00,94.02 ₹/L,  0.00
+Saraikela Kharasawan,97.75 ₹/L,  0.00,92.49 ₹/L,  0.00
+Simdega,98.78 ₹/L,  0.00,93.53 ₹/L,  0.00
+West Singhbhum,98.36 ₹/L,- 0.74,93.10 ₹/L,- 0.73

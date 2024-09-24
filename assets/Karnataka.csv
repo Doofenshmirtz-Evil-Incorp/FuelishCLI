@@ -1,31 +1,31 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Bagalkot,103.42 ₹/L,  NA,89.47 ₹/L,  NA
-Bangalore,102.86 ₹/L,  NA,88.94 ₹/L,  NA
-Bangalore Rural,102.86 ₹/L,  NA,88.94 ₹/L,  NA
-Belgaum,103.53 ₹/L,  NA,89.58 ₹/L,  NA
-Bellary,104.58 ₹/L,  NA,90.53 ₹/L,  NA
-Bidar,103.22 ₹/L,  NA,89.29 ₹/L,  NA
-Bijapur,103.18 ₹/L,  NA,89.25 ₹/L,  NA
-Chamrajnagar,103.03 ₹/L,  NA,89.10 ₹/L,  NA
-Chikkaballapura,102.86 ₹/L,  NA,88.94 ₹/L,  NA
-Chikmagalur,103.93 ₹/L,  NA,89.58 ₹/L,  NA
-Chitradurga,103.94 ₹/L,  NA,89.74 ₹/L,  NA
-Dakshin Kannad,102.77 ₹/L,  NA,88.82 ₹/L,  NA
-Davangere,104.37 ₹/L,  NA,90.12 ₹/L,  NA
-Dharwad,102.63 ₹/L,  NA,88.76 ₹/L,  NA
-Gadag,103.32 ₹/L,  NA,89.38 ₹/L,  NA
-Gulbarga,102.63 ₹/L,  NA,88.76 ₹/L,  NA
-Hassan,103.25 ₹/L,  NA,89.11 ₹/L,  NA
-Haveri,103.32 ₹/L,  NA,89.38 ₹/L,  NA
-Kodagu,104.49 ₹/L,  NA,90.22 ₹/L,  NA
-Kolar,102.73 ₹/L,  NA,88.82 ₹/L,  NA
-Koppal,104.06 ₹/L,  NA,90.05 ₹/L,  NA
-Mandya,103.11 ₹/L,  NA,89.16 ₹/L,  NA
-Mysore,102.41 ₹/L,  NA,88.53 ₹/L,  NA
-Raichur,102.76 ₹/L,  NA,88.89 ₹/L,  NA
-Ramanagara,103.33 ₹/L,  NA,89.36 ₹/L,  NA
-Shimoga,103.73 ₹/L,  NA,89.62 ₹/L,  NA
-Tumkur,103.77 ₹/L,  NA,89.76 ₹/L,  NA
-Udupi,102.74 ₹/L,  NA,88.79 ₹/L,  NA
-Uttar Kannad,103.96 ₹/L,  NA,89.90 ₹/L,  NA
-Yadgir,103.37 ₹/L,  NA,89.43 ₹/L,  NA
+Bagalkot,103.42 ₹/L,  0.00,89.47 ₹/L,  0.00
+Bangalore,102.86 ₹/L,  0.00,88.94 ₹/L,  0.00
+Bangalore Rural,102.50 ₹/L,- 0.36,88.61 ₹/L,- 0.33
+Belgaum,103.53 ₹/L,  0.00,89.58 ₹/L,  0.00
+Bellary,104.58 ₹/L,  0.00,90.53 ₹/L,  0.00
+Bidar,103.22 ₹/L,  0.00,89.29 ₹/L,  0.00
+Bijapur,102.64 ₹/L,- 0.54,88.76 ₹/L,- 0.49
+Chamrajnagar,103.03 ₹/L,  0.00,89.10 ₹/L,  0.00
+Chikkaballapura,103.33 ₹/L,+ 0.47,89.36 ₹/L,+ 0.42
+Chikmagalur,103.93 ₹/L,  0.00,89.58 ₹/L,  0.00
+Chitradurga,103.94 ₹/L,  0.00,89.74 ₹/L,  0.00
+Dakshin Kannad,102.43 ₹/L,- 0.34,88.51 ₹/L,- 0.31
+Davangere,104.37 ₹/L,  0.00,90.12 ₹/L,  0.00
+Dharwad,102.63 ₹/L,  0.00,88.76 ₹/L,  0.00
+Gadag,103.32 ₹/L,  0.00,89.38 ₹/L,  0.00
+Gulbarga,102.63 ₹/L,  0.00,88.76 ₹/L,  0.00
+Hassan,103.25 ₹/L,  0.00,89.11 ₹/L,  0.00
+Haveri,103.32 ₹/L,  0.00,89.38 ₹/L,  0.00
+Kodagu,104.27 ₹/L,- 0.22,90.04 ₹/L,- 0.18
+Kolar,102.73 ₹/L,  0.00,88.82 ₹/L,  0.00
+Koppal,103.82 ₹/L,- 0.24,89.83 ₹/L,- 0.22
+Mandya,103.11 ₹/L,  0.00,89.16 ₹/L,  0.00
+Mysore,102.41 ₹/L,  0.00,88.53 ₹/L,  0.00
+Raichur,102.76 ₹/L,  0.00,88.89 ₹/L,  0.00
+Ramanagara,103.33 ₹/L,  0.00,89.36 ₹/L,  0.00
+Shimoga,103.73 ₹/L,  0.00,89.62 ₹/L,  0.00
+Tumkur,103.77 ₹/L,  0.00,89.76 ₹/L,  0.00
+Udupi,102.95 ₹/L,+ 0.21,88.98 ₹/L,+ 0.19
+Uttar Kannad,103.96 ₹/L,  0.00,89.90 ₹/L,  0.00
+Yadgir,103.37 ₹/L,  0.00,89.43 ₹/L,  0.00
