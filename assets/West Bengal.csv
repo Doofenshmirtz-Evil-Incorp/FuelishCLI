@@ -1,24 +1,24 @@
 City,Price(P),Change(P),Price(D),Change(D)
 Alipurduar,106.18 ₹/L,  0.00,92.90 ₹/L,  0.00
 Bankura,105.21 ₹/L,  0.00,92.01 ₹/L,  0.00
-Birbhum,105.60 ₹/L,  0.00,92.37 ₹/L,  0.00
+Birbhum,105.84 ₹/L,+ 0.24,92.58 ₹/L,+ 0.21
 Cooch Bihar,106.32 ₹/L,  0.00,93.03 ₹/L,  0.00
 Dakshin Dinajpur,105.29 ₹/L,  0.00,92.07 ₹/L,  0.00
 Darjeeling,104.95 ₹/L,  0.00,91.76 ₹/L,  0.00
-Hooghly,105.20 ₹/L,  0.00,91.99 ₹/L,  0.00
+Hooghly,105.45 ₹/L,+ 0.25,92.22 ₹/L,+ 0.23
 Howrah,104.95 ₹/L,  0.00,91.76 ₹/L,  0.00
 Jalpaiguri,104.66 ₹/L,  0.00,91.48 ₹/L,  0.00
 Jhargram,105.81 ₹/L,  0.00,92.53 ₹/L,  0.00
 Kalimpong,104.90 ₹/L,  0.00,91.71 ₹/L,  0.00
 Kolkata,104.95 ₹/L,  0.00,91.76 ₹/L,  0.00
 Malda,104.88 ₹/L,  0.00,91.70 ₹/L,  0.00
-Murshidabad,105.81 ₹/L,  0.00,92.57 ₹/L,  0.00
-Nadia,106.77 ₹/L,  0.00,93.46 ₹/L,  0.00
-North 24 Parganas,105.69 ₹/L,  0.00,92.45 ₹/L,  0.00
-Paschim Bardhaman,104.78 ₹/L,  0.00,91.61 ₹/L,  0.00
-Paschim Medinipur,105.66 ₹/L,  0.00,92.38 ₹/L,  0.00
-Purba Bardhaman,105.35 ₹/L,  0.00,92.14 ₹/L,  0.00
-Purba Medinipur,104.98 ₹/L,  0.00,91.75 ₹/L,  0.00
+Murshidabad,105.13 ₹/L,- 0.68,91.93 ₹/L,- 0.64
+Nadia,106.04 ₹/L,- 0.73,92.78 ₹/L,- 0.68
+North 24 Parganas,104.95 ₹/L,- 0.74,91.76 ₹/L,- 0.69
+Paschim Bardhaman,105.21 ₹/L,+ 0.43,92.01 ₹/L,+ 0.40
+Paschim Medinipur,105.59 ₹/L,- 0.07,92.33 ₹/L,- 0.05
+Purba Bardhaman,105.55 ₹/L,+ 0.20,92.32 ₹/L,+ 0.18
+Purba Medinipur,105.30 ₹/L,+ 0.32,92.05 ₹/L,+ 0.30
 Purulia,105.77 ₹/L,  0.00,92.53 ₹/L,  0.00
-South 24 Parganas,105.15 ₹/L,  0.00,91.95 ₹/L,  0.00
+South 24 Parganas,105.55 ₹/L,+ 0.40,92.32 ₹/L,+ 0.37
 Uttar Dinajpur,105.68 ₹/L,  0.00,92.43 ₹/L,  0.00
