@@ -1,8 +1,8 @@
 City,Price(P),Change(P),Price(D),Change(D)
 Bishnupur,99.44 ₹/L,  0.00,85.48 ₹/L,  0.00
 Chandel,99.66 ₹/L,  0.00,85.68 ₹/L,  0.00
-Churachandpur,99.69 ₹/L,+ 0.45,85.70 ₹/L,+ 0.40
-East Imphal,99.20 ₹/L,- 0.07,85.26 ₹/L,- 0.06
+Churachandpur,99.24 ₹/L,- 0.45,85.30 ₹/L,- 0.40
+East Imphal,99.20 ₹/L,  0.00,85.26 ₹/L,  0.00
 Jiribam,101.14 ₹/L,  0.00,87.08 ₹/L,  0.00
 Kakching,99.50 ₹/L,  0.00,85.53 ₹/L,  0.00
 Kangpokpi,99.56 ₹/L,  0.00,85.58 ₹/L,  0.00
@@ -12,4 +12,4 @@ Tamenglong,100.62 ₹/L,  0.00,86.55 ₹/L,  0.00
 Tengnoupal,100.12 ₹/L,  0.00,86.10 ₹/L,  0.00
 Thoubal,99.38 ₹/L,  0.00,85.42 ₹/L,  0.00
 Ukhrul,99.94 ₹/L,  0.00,85.93 ₹/L,  0.00
-West Imphal,99.32 ₹/L,+ 0.12,85.37 ₹/L,+ 0.11
+West Imphal,99.24 ₹/L,- 0.08,85.30 ₹/L,- 0.07
