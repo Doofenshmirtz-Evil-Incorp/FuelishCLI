@@ -1,9 +1,9 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Dhalai,96.28 ₹/L,  0.00,85.38 ₹/L,- 0.21
-Gomati,97.97 ₹/L,  0.00,87.10 ₹/L,  0.00
-Khowai,97.25 ₹/L,  0.00,86.29 ₹/L,+ 0.14
-North Tripura,96.14 ₹/L,  0.00,85.38 ₹/L,  0.00
+Dhalai,96.28 ₹/L,  0.00,85.38 ₹/L,  0.00
+Gomati,97.97 ₹/L,  0.00,87.00 ₹/L,- 0.10
+Khowai,97.25 ₹/L,  0.00,86.29 ₹/L,  0.00
+North Tripura,96.27 ₹/L,+ 0.13,85.38 ₹/L,+ 0.12
 Sepahijhala,97.97 ₹/L,+ 0.45,87.10 ₹/L,+ 0.56
-South Tripura,97.69 ₹/L,- 0.28,87.10 ₹/L,  0.00
-Unakoti,96.27 ₹/L,  0.00,85.38 ₹/L,  0.00
-West Tripura,97.53 ₹/L,  0.00,86.55 ₹/L,- 0.04
+South Tripura,97.69 ₹/L,- 0.28,86.70 ₹/L,- 0.40
+Unakoti,96.08 ₹/L,- 0.19,85.20 ₹/L,- 0.18
+West Tripura,97.53 ₹/L,  0.00,86.55 ₹/L,  0.00
