@@ -5,9 +5,27 @@ import csv
 from bs4 import BeautifulSoup
 import concurrent.futures
 ###################################
-
+headers = {
+    'Host': 'www.ndtv.com',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'Accept-Language': 'en-US,en;q=0.5',
+    'Accept-Encoding': 'gzip, deflate, br, zstd',
+    'DNT': '1',
+    'Sec-GPC': '1',
+    'Connection': 'keep-alive',
+    'Upgrade-Insecure-Requests': '1',
+    'Sec-Fetch-Dest': 'document',
+    'Sec-Fetch-Mode': 'navigate',
+    'Sec-Fetch-Site': 'none',
+    'Sec-Fetch-User': '?1',
+    'Priority': 'u=0, i',
+    'Pragma': 'no-cache',
+    'Cache-Control': 'no-cache',
+    'TE': 'trailers'
+}
 def get_page(st,url):
-    resp = requests.get(url=url)
+    resp = requests.get(url=url, headers = headers)
     print(st)
     return {st:resp.content,}
 
@@ -24,10 +42,11 @@ def asyncget(urls):
     return result
 
 def main():
+    
     URL1 = "https://www.ndtv.com/fuel-prices/petrol-price-in-all-state"
-    page1 = requests.get(URL1)
+    page1 = requests.get(URL1, headers = headers)
     URL2 = "https://www.ndtv.com/fuel-prices/diesel-price-in-all-state"
-    page2 = requests.get(URL2)
+    page2 = requests.get(URL2, headers = headers)
 
     #print(page.text)
     soup1 = BeautifulSoup(page1.content, "html.parser")
@@ -53,7 +72,6 @@ def main():
 #####################################
 
 #extracting all elements under td tag
-
     for SData_P in results1.find_all("td"):
         match (x%3):
             case 1:
