@@ -33,6 +33,7 @@ FuelishCLI is built with the following technologies:
 - Beautiful Soup
 - Requests
 - CSV
+- Selenium
 
 ## Installation
 
