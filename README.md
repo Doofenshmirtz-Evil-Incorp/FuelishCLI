@@ -1,6 +1,7 @@
 # FuelishPy
 
-The Python program that retrieves daily fuel prices from ndtv.com at the ungodly hour. We built FuelishPy to power out [Fuelish website](https://fuelish.a4real.org).
+The Python program that retrieves daily fuel prices from ndtv.com at the ungodly hour. THE FRONT END IS HOSTED ON [fuelish.a4real.org](https://fuelish.a4real.org)
+FOR UI RELATED CONTRIBUTIONS REFER TO: [LINK TO REPO](https://github.com/Doofenshmirtz-Evil-Incorp/Fuelish)
 ## Status
 [![Generate csv](https://github.com/Doofenshmirtz-Evil-Incorp/FuelishPy/actions/workflows/csv.yml/badge.svg)](https://github.com/Doofenshmirtz-Evil-Incorp/FuelishPy/actions/workflows/csv.yml)
 
